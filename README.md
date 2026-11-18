@@ -1,6 +1,6 @@
 # Musterklinikum
 
-22 statische HTML-Seiten für eine fiktive Klinik als RAG-Demo, ohne Build-Schritt. Die Website-Dateien liegen in `public/`; das gemeinsame Stylesheet ist `public/styles.css`.
+23 statische HTML-Seiten für eine fiktive Klinik als RAG-Demo, ohne Build-Schritt. Die Website-Dateien liegen in `public/`; das gemeinsame Stylesheet ist `public/styles.css`.
 
 ## Lokal ansehen
 
