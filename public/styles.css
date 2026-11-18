@@ -16,3 +16,6 @@ header nav a:focus-visible{outline:2px solid #fff;outline-offset:4px;border-radi
 @media(max-width:600px){
   header{background-position:62% center;background-image:linear-gradient(rgba(9,35,61,.83),rgba(9,35,61,.83)),url("assets/images/hospital-header.webp");padding-top:24px;padding-bottom:24px}
 }
+
+footer a[href="impressum.html"]{color:inherit;font:inherit;text-decoration:none}
+footer a[href="impressum.html"]:hover,footer a[href="impressum.html"]:focus-visible{text-decoration:underline}
