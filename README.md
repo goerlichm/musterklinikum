@@ -1,6 +1,6 @@
 # Musterklinikum
 
-Statische Webseiten ohne Build-Schritt. Die Website-Dateien liegen in `public/`.
+22 statische HTML-Seiten für eine fiktive Klinik als RAG-Demo, ohne Build-Schritt. Die Website-Dateien liegen in `public/`; das gemeinsame Stylesheet ist `public/styles.css`.
 
 ## Lokal ansehen
 
@@ -27,3 +27,5 @@ git push -u origin HEAD
 Repository: https://github.com/goerlichm/musterklinikum
 
 Ein Git-Push lädt den Quellcode hoch. Eine öffentliche Website über GitHub Pages ist damit noch nicht eingerichtet.
+
+Die Sitemap in `public/sitemap.xml` enthält noch `https://IHRE-DOMAIN/` als Platzhalter. Sobald eine Hosting-Adresse feststeht, muss diese Basis-URL ersetzt werden. Weitere Hinweise zu den Demo-Inhalten stehen in `public/README.md`.
