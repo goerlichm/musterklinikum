@@ -1,1 +1,18 @@
 *{box-sizing:border-box}body{margin:0;font:17px/1.65 system-ui,-apple-system,Segoe UI,sans-serif;color:#203047;background:#f5f8fb}header{background:#103b65;color:white;padding:22px max(20px,calc((100vw - 1060px)/2))}header strong{font-size:1.45rem}header small{display:block;color:#c7e2f6}nav{display:flex;flex-wrap:wrap;gap:15px;margin-top:16px}nav a{color:white;text-decoration:none;font-size:.94rem}nav a:hover{text-decoration:underline}main{max-width:1060px;margin:38px auto;padding:0 22px}.hero{background:white;border-radius:14px;padding:34px;box-shadow:0 4px 20px #14365a10}h1{font-size:2rem;line-height:1.2;color:#103b65}h2{font-size:1.25rem;color:#103b65}p{max-width:75ch}.notice{border-left:4px solid #d99a25;background:#fff8e9;padding:12px 17px;margin:20px 0}.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:28px 0}.links a{display:block;background:#fff;padding:14px;border:1px solid #dbe5ed;border-radius:8px;color:#145d95;text-decoration:none}.links a:hover{border-color:#145d95}footer{max-width:1060px;margin:45px auto 0;padding:25px 22px;color:#5a6a79;border-top:1px solid #d7e2ec;font-size:.9rem}@media(max-width:600px){.hero{padding:22px}h1{font-size:1.65rem}}
+.hospital-brand{display:flex;align-items:center;gap:12px}.hospital-symbol{display:block;flex-shrink:0;width:40px;height:40px}
+
+header{
+  background-color:#103b65;
+  background-image:linear-gradient(90deg,rgba(9,35,61,.92),rgba(9,35,61,.72) 55%,rgba(9,35,61,.35)),url("assets/images/hospital-header.webp");
+  background-size:cover;
+  background-position:center 52%;
+  padding-top:32px;
+  padding-bottom:28px;
+}
+header small{color:#e0edf7}
+header nav{gap:8px 15px}
+header nav a{padding:3px 0;text-shadow:0 1px 3px #091f35}
+header nav a:focus-visible{outline:2px solid #fff;outline-offset:4px;border-radius:2px}
+@media(max-width:600px){
+  header{background-position:62% center;background-image:linear-gradient(rgba(9,35,61,.83),rgba(9,35,61,.83)),url("assets/images/hospital-header.webp");padding-top:24px;padding-bottom:24px}
+}

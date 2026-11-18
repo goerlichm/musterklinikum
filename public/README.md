@@ -1,6 +1,6 @@
 # Musterklinikum – RAG-Demowebsite
 
-22 statische HTML-Seiten mit ausschließlich fiktiven Inhalten, zentralem CSS, Navigation, robots.txt und Sitemap.
+23 statische HTML-Seiten mit ausschließlich fiktiven Inhalten, zentralem CSS, Navigation, robots.txt und Sitemap.
 
 ## Veröffentlichung
 
